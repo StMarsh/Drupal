@@ -89,13 +89,11 @@
 
   <div id="header" class="<?php print $secondary_menu ? 'with-secondary-menu': 'without-secondary-menu'; ?>"><div class="section clearfix">
 
-    <a href="<?php print $front_page; ?>"  rel="home" id="logo">
-        <img url="../images/logo.png"  />
-    </a>
+    <h1><a href="<?php print $front_page; ?>"  rel="home" id="logo"></a></h1>
 
     <?php print render($page['header']); ?>
 
-    <ul class="links">
+    <ul id="social" class="links">
       <li class="fb">
           <a href="http://www.facebook.com/pages/GeekHub/158983477520070"> </a>
       </li>
@@ -129,17 +127,15 @@
 
 
 
-  </div></div> <!-- /.section, /#header -->
-
-  <?php if ($messages): ?>
-    <div id="messages"><div class="section clearfix">
-      <?php print $messages; ?>
-    </div></div> <!-- /.section, /#messages -->
-  <?php endif; ?>
+  </div>
+      <img src="http://localhost/DrupalT/sites/all/themes/bryk/images/splash.png">
+      <p>На жаль, реєстрацію на сезон 2013-2014 зачинено. Чекаємо на Вас у наступному році.</p>
+  </div> <!-- /.section, /#header -->
 
   <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
 
     <div id="content" class="column" ><div class="section">
+      <h2>Наші Курси</h2>
 
       <?php print render($page['content']); ?>
 

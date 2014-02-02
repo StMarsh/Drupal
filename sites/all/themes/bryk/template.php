@@ -1,156 +1,149 @@
 <?php
 
 /**
- * Override of theme_breadcrumb().
+ * Add body classes if certain regions have content.
  */
-function bryk_breadcrumb($variables) {
-  $breadcrumb = $variables['breadcrumb'];
-
-  if (!empty($breadcrumb)) {
-    // Provide a navigational heading to give context for breadcrumb links to
-    // screen-reader users. Make the heading invisible with .element-invisible.
-    $output = '<h2 class="element-invisible">' . t('You are here') . '</h2>';
-
-    $output .= '<div class="breadcrumb">' . implode(' › ', $breadcrumb) . '</div>';
-    return $output;
+function bryk_preprocess_html(&$variables) {
+  if (!empty($variables['page']['featured'])) {
+    $variables['classes_array'][] = 'featured';
   }
+
+  if (!empty($variables['page']['footer_firstcolumn'])
+    || !empty($variables['page']['footer_secondcolumn'])
+    || !empty($variables['page']['footer_thirdcolumn'])) {
+    $variables['classes_array'][] = 'footer-columns';
+  }
+
+  // Add conditional stylesheets for IE
+  drupal_add_css(path_to_theme() . '/css/ie.css', array('group' => CSS_THEME, 'browsers' => array('IE' => 'lte IE 7', '!IE' => FALSE), 'preprocess' => FALSE));
+  drupal_add_css(path_to_theme() . '/css/ie6.css', array('group' => CSS_THEME, 'browsers' => array('IE' => 'IE 6', '!IE' => FALSE), 'preprocess' => FALSE));
+}
+
+/**
+ * Override or insert variables into the page template for HTML output.
+ */
+function bryk_process_html(&$variables) {
+  // Hook into color.module.
+  if (module_exists('color')) {
+    _color_html_alter($variables);
+  }
+}
+
+/**
+ * Override or insert variables into the page template.
+ */
+function bryk_process_page(&$variables) {
+  // Hook into color.module.
+  if (module_exists('color')) {
+    _color_page_alter($variables);
+  }
+  // Always print the site name and slogan, but if they are toggled off, we'll
+  // just hide them visually.
+  $variables['hide_site_name']   = theme_get_setting('toggle_name') ? FALSE : TRUE;
+  $variables['hide_site_slogan'] = theme_get_setting('toggle_slogan') ? FALSE : TRUE;
+  if ($variables['hide_site_name']) {
+    // If toggle_name is FALSE, the site_name will be empty, so we rebuild it.
+    $variables['site_name'] = filter_xss_admin(variable_get('site_name', 'Drupal'));
+  }
+  if ($variables['hide_site_slogan']) {
+    // If toggle_site_slogan is FALSE, the site_slogan will be empty, so we rebuild it.
+    $variables['site_slogan'] = filter_xss_admin(variable_get('site_slogan', ''));
+  }
+  // Since the title and the shortcut link are both block level elements,
+  // positioning them next to each other is much simpler with a wrapper div.
+  if (!empty($variables['title_suffix']['add_or_remove_shortcut']) && $variables['title']) {
+    // Add a wrapper div using the title_prefix and title_suffix render elements.
+    $variables['title_prefix']['shortcut_wrapper'] = array(
+      '#markup' => '<div class="shortcut-wrapper clearfix">',
+      '#weight' => 100,
+    );
+    $variables['title_suffix']['shortcut_wrapper'] = array(
+      '#markup' => '</div>',
+      '#weight' => -99,
+    );
+    // Make sure the shortcut link is the first item in title_suffix.
+    $variables['title_suffix']['add_or_remove_shortcut']['#weight'] = -100;
+  }
+}
+
+/**
+ * Implements hook_preprocess_maintenance_page().
+ */
+function bryk_preprocess_maintenance_page(&$variables) {
+  // By default, site_name is set to Drupal if no db connection is available
+  // or during site installation. Setting site_name to an empty string makes
+  // the site and update pages look cleaner.
+  // @see template_preprocess_maintenance_page
+  if (!$variables['db_is_active']) {
+    $variables['site_name'] = '';
+  }
+  drupal_add_css(drupal_get_path('theme', 'bryk') . '/css/maintenance-page.css');
 }
 
 /**
  * Override or insert variables into the maintenance page template.
  */
-function bryk_preprocess_maintenance_page(&$vars) {
-  // While markup for normal pages is split into page.tpl.php and html.tpl.php,
-  // the markup for the maintenance page is all in the single
-  // maintenance-page.tpl.php template. So, to have what's done in
-  // bryk_preprocess_html() also happen on the maintenance page, it has to be
-  // called here.
-  bryk_preprocess_html($vars);
-}
-
-/**
- * Override or insert variables into the html template.
- */
-function bryk_preprocess_html(&$vars) {
-  // Toggle fixed or fluid width.
-  if (theme_get_setting('bryk_width') == 'fluid') {
-    $vars['classes_array'][] = 'fluid-width';
+function bryk_process_maintenance_page(&$variables) {
+  // Always print the site name and slogan, but if they are toggled off, we'll
+  // just hide them visually.
+  $variables['hide_site_name']   = theme_get_setting('toggle_name') ? FALSE : TRUE;
+  $variables['hide_site_slogan'] = theme_get_setting('toggle_slogan') ? FALSE : TRUE;
+  if ($variables['hide_site_name']) {
+    // If toggle_name is FALSE, the site_name will be empty, so we rebuild it.
+    $variables['site_name'] = filter_xss_admin(variable_get('site_name', 'Drupal'));
   }
-  // Add conditional CSS for IE6.
-  drupal_add_css(path_to_theme() . '/css/fix-ie.css', array('group' => CSS_THEME, 'browsers' => array('IE' => 'lt IE 7', '!IE' => FALSE), 'preprocess' => FALSE));
-}
-
-/**
- * Override or insert variables into the html template.
- */
-function bryk_process_html(&$vars) {
-  // Hook into color.module
-  if (module_exists('color')) {
-    _color_html_alter($vars);
+  if ($variables['hide_site_slogan']) {
+    // If toggle_site_slogan is FALSE, the site_slogan will be empty, so we rebuild it.
+    $variables['site_slogan'] = filter_xss_admin(variable_get('site_slogan', ''));
   }
-}
-
-/**
- * Override or insert variables into the page template.
- */
-function bryk_preprocess_page(&$vars) {
-  // Move secondary tabs into a separate variable.
-  $vars['tabs2'] = array(
-    '#theme' => 'menu_local_tasks',
-    '#secondary' => $vars['tabs']['#secondary'],
-  );
-  unset($vars['tabs']['#secondary']);
-
-  if (isset($vars['main_menu'])) {
-    $vars['primary_nav'] = theme('links__system_main_menu', array(
-      'links' => $vars['main_menu'],
-      'attributes' => array(
-        'class' => array('links', 'inline', 'main-menu'),
-      ),
-      'heading' => array(
-        'text' => t('Main menu'),
-        'level' => 'h2',
-        'class' => array('element-invisible'),
-      )
-    ));
-  }
-  else {
-    $vars['primary_nav'] = FALSE;
-  }
-  if (isset($vars['secondary_menu'])) {
-    $vars['secondary_nav'] = theme('links__system_secondary_menu', array(
-      'links' => $vars['secondary_menu'],
-      'attributes' => array(
-        'class' => array('links', 'inline', 'secondary-menu'),
-      ),
-      'heading' => array(
-        'text' => t('Secondary menu'),
-        'level' => 'h2',
-        'class' => array('element-invisible'),
-      )
-    ));
-  }
-  else {
-    $vars['secondary_nav'] = FALSE;
-  }
-
-  // Prepare header.
-  $site_fields = array();
-  if (!empty($vars['site_name'])) {
-    $site_fields[] = $vars['site_name'];
-  }
-  if (!empty($vars['site_slogan'])) {
-    $site_fields[] = $vars['site_slogan'];
-  }
-  $vars['site_title'] = implode(' ', $site_fields);
-  if (!empty($site_fields)) {
-    $site_fields[0] = '<span>' . $site_fields[0] . '</span>';
-  }
-  $vars['site_html'] = implode(' ', $site_fields);
-
-  // Set a variable for the site name title and logo alt attributes text.
-  $slogan_text = $vars['site_slogan'];
-  $site_name_text = $vars['site_name'];
-  $vars['site_name_and_slogan'] = $site_name_text . ' ' . $slogan_text;
 }
 
 /**
  * Override or insert variables into the node template.
  */
-function bryk_preprocess_node(&$vars) {
-  $vars['submitted'] = $vars['date'] . ' — ' . $vars['name'];
-}
-
-/**
- * Override or insert variables into the comment template.
- */
-function bryk_preprocess_comment(&$vars) {
-  $vars['submitted'] = $vars['created'] . ' — ' . $vars['author'];
+function bryk_preprocess_node(&$variables) {
+  if ($variables['view_mode'] == 'full' && node_is_page($variables['node'])) {
+    $variables['classes_array'][] = 'node-full';
+  }
 }
 
 /**
  * Override or insert variables into the block template.
  */
-function bryk_preprocess_block(&$vars) {
-  $vars['title_attributes_array']['class'][] = 'title';
-  $vars['classes_array'][] = 'clearfix';
-}
-
-/**
- * Override or insert variables into the page template.
- */
-function bryk_process_page(&$vars) {
-  // Hook into color.module
-  if (module_exists('color')) {
-    _color_page_alter($vars);
+function bryk_preprocess_block(&$variables) {
+  // In the header region visually hide block titles.
+  if ($variables['block']->region == 'header') {
+    $variables['title_attributes_array']['class'][] = 'element-invisible';
   }
 }
 
 /**
- * Override or insert variables into the region template.
+ * Implements theme_menu_tree().
  */
-function bryk_preprocess_region(&$vars) {
-  if ($vars['region'] == 'header') {
-    $vars['classes_array'][] = 'clearfix';
+function bryk_menu_tree($variables) {
+  return '<ul class="menu clearfix">' . $variables['tree'] . '</ul>';
+}
+
+/**
+ * Implements theme_field__field_type().
+ */
+function bryk_field__taxonomy_term_reference($variables) {
+  $output = '';
+
+  // Render the label, if it's not hidden.
+  if (!$variables['label_hidden']) {
+    $output .= '<h3 class="field-label">' . $variables['label'] . ': </h3>';
   }
+
+  // Render the items.
+  $output .= ($variables['element']['#label_display'] == 'inline') ? '<ul class="links inline">' : '<ul class="links">';
+  foreach ($variables['items'] as $delta => $item) {
+    $output .= '<li class="taxonomy-term-reference-' . $delta . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</li>';
+  }
+  $output .= '</ul>';
+
+  // Render the top-level DIV.
+  $output = '<div class="' . $variables['classes'] . (!in_array('clearfix', $variables['classes_array']) ? ' clearfix' : '') . '"' . $variables['attributes'] .'>' . $output . '</div>';
+
+  return $output;
 }

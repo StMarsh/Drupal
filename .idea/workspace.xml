@@ -28,37 +28,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bryk.info" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/bryk.info">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="792">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="3" selection-start="2820" selection-end="2820" vertical-scroll-proportion="0.0" vertical-offset="1692" max-vertical-offset="2916">
+            <state line="143" column="0" selection-start="5391" selection-end="5391" vertical-scroll-proportion="0.0" vertical-offset="2057" max-vertical-offset="2790">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page--front.tpl.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--front.tpl.php">
+      <file leaf-file-name="page--view-home.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--view-home.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="36" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.74820143" vertical-offset="106" max-vertical-offset="1170">
+            <state line="134" column="0" selection-start="5664" selection-end="5664" vertical-scroll-proportion="0.0" vertical-offset="2412" max-vertical-offset="3060">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="page.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/garland/page.tpl.php">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="116" selection-start="404" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="1332">
+            <state line="92" column="36" selection-start="4434" selection-end="4434" vertical-scroll-proportion="0.0" vertical-offset="1656" max-vertical-offset="3132">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="394" column="32" selection-start="7071" selection-end="7071" vertical-scroll-proportion="0.47512865" vertical-offset="6815" max-vertical-offset="31914">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="1854">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/css/colors.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
@@ -78,6 +96,12 @@
         <option value="$PROJECT_DIR$/sites/all/themes/bryk/bryk.info" />
         <option value="$PROJECT_DIR$/sites/all/themes/bryk/template.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/bryk/templates/page--front.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/bryk/color/color.inc" />
+        <option value="$PROJECT_DIR$/sites/all/themes/bryk/css/layout.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/bryk/css/colors.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/bryk/templates/page.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/bryk/templates/page--view-home.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/bryk/css/style.css" />
       </list>
     </option>
   </component>
@@ -119,6 +143,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -161,64 +186,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="garland" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DrupalT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DrupalT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bartik" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DrupalT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DrupalT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bartik" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DrupalT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DrupalT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="sites" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -242,92 +209,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DrupalT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DrupalT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bryk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DrupalT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DrupalT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bryk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DrupalT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DrupalT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bryk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -351,7 +232,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,7 +239,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.lastSelected" value="Configurable.PHP.Servers" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
@@ -367,8 +247,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sites/all/themes/bryk/images" />
       <recent name="$PROJECT_DIR$/sites/all/themes/bryk/templates" />
+      <recent name="$PROJECT_DIR$/sites/all/themes/bryk/images" />
       <recent name="$PROJECT_DIR$/sites/all/themes/bryk" />
       <recent name="$PROJECT_DIR$/sites/all/themes" />
     </key>
@@ -460,22 +340,22 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25976095" sideWeight="0.6176" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17928287" sideWeight="0.6352" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974634" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3824" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3648" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -496,106 +376,101 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--front.tpl.php</url>
+          <url>file://$PROJECT_DIR$/sites/all/themes/bryk2/templates/page--front.tpl.php</url>
           <line>11</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--view-home.tpl.php</url>
+          <line>93</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="26" />
+      <option name="time" value="36" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/garland/garland.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="0" selection-end="407" vertical-scroll-proportion="0.15570934" vertical-offset="0" max-vertical-offset="578" />
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/images/comment-arrow-rtl.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="2914" selection-end="2914" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="1332" />
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/images/comment-arrow.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bartik/bartik.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="846" />
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/images/buttons.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="498" selection-end="498" vertical-scroll-proportion="-6.703704" vertical-offset="17" max-vertical-offset="324" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/menu.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="531" column="0" selection-start="18256" selection-end="18256" vertical-scroll-proportion="-3.6296296" vertical-offset="9406" max-vertical-offset="70092" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/common.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5753" column="0" selection-start="219341" selection-end="219341" vertical-scroll-proportion="-3.6296296" vertical-offset="103348" max-vertical-offset="148032">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/theme.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1121" column="0" selection-start="43457" selection-end="43457" vertical-scroll-proportion="-3.6296296" vertical-offset="19972" max-vertical-offset="52524" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bartik/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.3616352" vertical-offset="749" max-vertical-offset="2916">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../joomlaT/administrator/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="52" selection-start="412" selection-end="412" vertical-scroll-proportion="0.47058824" vertical-offset="0" max-vertical-offset="1080" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bartik/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="4" selection-start="4337" selection-end="4564" vertical-scroll-proportion="0.2706767" vertical-offset="0" max-vertical-offset="3060" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/maintenance-page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.6870503" vertical-offset="938" max-vertical-offset="1494" />
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/images/add.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/bryk.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-          <folding />
-        </state>
+        <state line="14" column="28" selection-start="348" selection-end="348" vertical-scroll-proportion="0.6847826" vertical-offset="0" max-vertical-offset="756" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../joomlaT/administrator/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.2111437" vertical-offset="0" max-vertical-offset="1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page111.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="38" selection-start="4190" selection-end="4190" vertical-scroll-proportion="0.1294964" vertical-offset="0" max-vertical-offset="3060" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="3" selection-start="2820" selection-end="2820" vertical-scroll-proportion="0.0" vertical-offset="1692" max-vertical-offset="2916">
+        <state line="143" column="0" selection-start="5391" selection-end="5391" vertical-scroll-proportion="0.0" vertical-offset="2057" max-vertical-offset="2790">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/node.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="67" selection-start="561" selection-end="561" vertical-scroll-proportion="0.24077329" vertical-offset="151" max-vertical-offset="720" />
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/images/splash.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/garland/page.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="116" selection-start="404" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="1332">
+        <state line="8" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1854">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--front.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="36" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.74820143" vertical-offset="106" max-vertical-offset="1170">
+        <state line="92" column="36" selection-start="4434" selection-end="4434" vertical-scroll-proportion="0.0" vertical-offset="1656" max-vertical-offset="3132">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--view-home.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="0" selection-start="5664" selection-end="5664" vertical-scroll-proportion="0.0" vertical-offset="2412" max-vertical-offset="3060">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="394" column="32" selection-start="7071" selection-end="7071" vertical-scroll-proportion="0.47512865" vertical-offset="6815" max-vertical-offset="31914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/css/colors.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
           <folding />
         </state>
       </provider>
