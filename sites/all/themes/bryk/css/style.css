@@ -168,7 +168,7 @@ a.feed-icon {
 /* ------------------ Wrapper ------------------ */
 #page-wrapper {
     width: 100%;
-    background: url("../images/header_bg.png") repeat-x scroll center top #FFFFFF;
+    background: url("../images/header_bg.png") repeat-x scroll center -30px #FFFFFF;
 }
 #page-wrapper.inner {
     background: url("../images/header_bg.png") repeat-x scroll center -339px #FFFFFF;
@@ -805,7 +805,7 @@ ul.links {
 }
  #page-wrapper.inner #content div#node-1.node div.field.field-name-body,
  #page-wrapper.inner #content div#node-26.node div.field.field-name-body{
-     width: 530px;
+     width: 520px;
      margin: 0;
  }
 #page-wrapper.inner #content div#node-1 p a,
@@ -844,6 +844,144 @@ ul.links {
 }
 #page-wrapper.inner #content.nothome div.section div.region {
     padding: 0 35px;
+}
+#page-wrapper.inner #content #node-125 .field-label {
+    color: #EB3580;
+    font-size: 27px;
+    font-weight: normal;
+    padding: 0 0 12px;
+    text-align: center;
+    font-family: Arial,sans-serif;
+}
+#page-wrapper.inner #content #node-125 div.field.field-name-body .field-items {
+    height: 300px;
+    border: 2px dashed #4C7689;
+    border-radius: 10px;
+    padding: 15px;
+    width: 380px;
+}
+#page-wrapper.inner #content #node-125 div.field.field-name-body {
+    width: 415px;
+    float: left;
+    height: 380px;
+    margin-right: 60px;
+}
+#page-wrapper.inner #content #node-125 div.field.field-name-field-faq {
+    width: 901px;
+}
+#page-wrapper.inner #content #node-125 div.field .field-label {
+    padding-top: 20px;
+}
+#page-wrapper.inner #content #node-125 div.field.field-name-body div.field-label {
+    padding-top: 0;
+}
+#page-wrapper.inner #content #node-125 ul {
+    overflow: hidden;
+    padding: 0 0 0 86px;
+    margin-top: 0;
+    list-style: none outside none;
+}
+#page-wrapper.inner #content #node-125 ul li {
+    float: left;
+    padding: 0 17px 0 0;
+}
+#page-wrapper.inner #content #node-125 ul li a {
+    background: url("http://geekhub.ck.ua/images/contact_links.png") no-repeat;
+    display: block;
+    height: 49px;
+    overflow: hidden;
+    text-indent: -200px;
+    width: 49px;
+}
+#page-wrapper.inner #content #node-125 ul li.fb a {
+    background-position: 0 0;
+}
+#page-wrapper.inner #content #node-125 ul li.fb a:hover {
+    background-position: 0 -57px;
+}
+#page-wrapper.inner #content #node-125 ul li.vk a {
+    background-position: -65px 0;
+}
+#page-wrapper.inner #content #node-125 ul li.vk a:hover {
+    background-position: -65px -57px;
+}
+#page-wrapper.inner #content #node-125 ul li.tw a {
+    background-position: -132px 0;
+}
+#page-wrapper.inner #content #node-125 ul li.tw a:hover {
+    background-position: -132px -57px;
+}
+#page-wrapper.inner #content #node-125 div.field.field-name-field-follow {
+    margin-bottom: 50px;
+}
+#page-wrapper.inner #content #node-125 div.field.field-name-field-faq p {
+    padding: 10px 0 0;
+    margin: 0;
+    text-align: center;
+    color: #4C7689;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+}
+#page-wrapper.inner #content #node-125 div.field.field-name-field-faq p
+
+#page-wrapper.inner #content #node-125 div.field.field-name-field-faq p a,
+#page-wrapper.inner #content #node-125 div.field.field-name-field-faq p a:visited,
+#page-wrapper.inner #content #node-125 div.field.field-name-field-faq p a:hover,
+#page-wrapper.inner #content #node-125 div.field.field-name-field-faq p a:link {
+    color: #E11D5D;
+    text-decoration: none;
+}
+#page-wrapper.inner #content div.views-row div.views-field {
+    float: left;
+    font-family: "Trebuchet MS";
+}/*L*/
+#page-wrapper.inner #content div.views-row div.views-field.views-field-field-desc {
+    width: 185px;
+}
+#page-wrapper.inner #content div.views-row div.views-field.views-field-field-desc {
+    text-align: right;
+}/*L*/
+#page-wrapper.inner #content div.views-row div.views-field.views-field-field-desc h3 {
+    color: #EA2778;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 29px;
+    padding: 37px 20px 10px 0;
+    margin: 0;
+}
+#page-wrapper.inner #content div.views-row div.views-field.views-field-field-desc h3 span {
+    display: block;
+    color: #F3753E;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    padding-top: 5px;
+}
+#page-wrapper.inner #content div.views-row div.views-field.views-field-field-curse-desc p {
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 40px 0 0 20px;
+}
+#page-wrapper.inner #content div.views-row div.views-field.views-field-field-curse-desc {
+    width: 450px;
+}
+#page-wrapper.inner #content div.views-row {
+    height: 200px;
+}
+#page-wrapper.inner #content div.views-row.views-row-2 div.views-field,
+#page-wrapper.inner #content div.views-row.views-row-4 div.views-field,
+#page-wrapper.inner #content div.views-row.views-row-6 div.views-field,
+#page-wrapper.inner #content div.views-row.views-row-8 div.views-field,
+#page-wrapper.inner #content div.views-row.views-row-10 div.views-field,
+#page-wrapper.inner #content div.views-row.views-row-12 div.views-field,
+#page-wrapper.inner #content div.views-row.views-row-14 div.views-field,
+#page-wrapper.inner #content div.views-row.views-row-16 div.views-field,
+#page-wrapper.inner #content div.views-row.views-row-18 div.views-field,
+#page-wrapper.inner #content div.views-row.views-row-20 div.views-field,
+#page-wrapper.inner #content div.views-row.views-row-22 div.views-field,
+#page-wrapper.inner #content div.views-row.views-row-24 div.views-field {
+    float: right;
 }
 /* ------------------ Footer ------------------ */
 
