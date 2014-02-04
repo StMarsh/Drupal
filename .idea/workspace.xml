@@ -31,34 +31,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="982" column="72" selection-start="21377" selection-end="21377" vertical-scroll-proportion="0.69468266" vertical-offset="17271" max-vertical-offset="30348">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/css/layout.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="4" selection-start="57" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="1854">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="16" selection-start="4161" selection-end="4173" vertical-scroll-proportion="22.074074" vertical-offset="668" max-vertical-offset="1386">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/css/colors.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="864">
+            <state line="1818" column="0" selection-start="40176" selection-end="40176" vertical-scroll-proportion="0.38250428" vertical-offset="32501" max-vertical-offset="33642">
               <folding />
             </state>
           </provider>
@@ -80,9 +53,10 @@
         <option value="$PROJECT_DIR$/sites/all/themes/bryk/templates/page--front.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/bryk/color/color.inc" />
         <option value="$PROJECT_DIR$/sites/all/themes/bryk/templates/page--view-home.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/bryk/css/layout.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/bryk/templates/page.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/bryk/templates/page--node-63.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/bryk/css/colors.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/bryk/css/layout.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/bryk/css/style.css" />
       </list>
     </option>
@@ -448,7 +422,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19123507" sideWeight="0.6352" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19760956" sideWeight="0.6352" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974634" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -493,104 +467,120 @@
           <line>91</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/sites/all/themes/bryk/templates/node.tpl.php</url>
+          <line>80</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="39" />
+      <option name="time" value="40" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/css/colors.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--node--63.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="882">
+        <state line="91" column="63" selection-start="4411" selection-end="4411" vertical-scroll-proportion="0.0" vertical-offset="1638" max-vertical-offset="2988">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/images/comment-arrow-rtl.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/images/comment-arrow.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/images/buttons.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/images/add.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../joomlaT/administrator/index.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/css/colors.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.2111437" vertical-offset="0" max-vertical-offset="1080" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/images/splash.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/bryk.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="0" selection-start="5391" selection-end="5391" vertical-scroll-proportion="0.0" vertical-offset="2574" max-vertical-offset="2790" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--front.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="34" selection-start="4491" selection-end="4491" vertical-scroll-proportion="0.40601504" vertical-offset="0" max-vertical-offset="1764" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bartik/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="27" selection-start="8106" selection-end="8187" vertical-scroll-proportion="0.6859504" vertical-offset="1238" max-vertical-offset="2520" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--view-home.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="108" selection-start="4300" selection-end="4300" vertical-scroll-proportion="0.19424461" vertical-offset="0" max-vertical-offset="684">
-          <folding>
-            <element signature="e#4909#5430#0" expanded="false" />
-          </folding>
+        <state line="29" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="792">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="57" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="1854">
+        <state line="54" column="12" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="1926">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/css/colors.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--node--64.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="864">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1494">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--node--65.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="16" selection-start="4161" selection-end="4173" vertical-scroll-proportion="22.074074" vertical-offset="668" max-vertical-offset="1386">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--node--66.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--node--67.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--node--68.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--node--69.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--node--70.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--node--71.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--node--72.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--node--73.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/templates/page--node--74.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1494">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/bryk/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="982" column="72" selection-start="21377" selection-end="21377" vertical-scroll-proportion="0.69468266" vertical-offset="17271" max-vertical-offset="30348">
+        <state line="1818" column="0" selection-start="40176" selection-end="40176" vertical-scroll-proportion="0.38250428" vertical-offset="32501" max-vertical-offset="33642">
           <folding />
         </state>
       </provider>

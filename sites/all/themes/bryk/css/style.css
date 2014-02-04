@@ -170,7 +170,7 @@ a.feed-icon {
     width: 100%;
     background: url("../images/header_bg.png") repeat-x scroll center -30px #FFFFFF;
 }
-#page-wrapper.inner {
+#page-wrapper.inner, #page-wrapper.inner2 {
     background: url("../images/header_bg.png") repeat-x scroll center -339px #FFFFFF;
 }
 #page {
@@ -385,18 +385,22 @@ ul.tips {
     text-align: center;
     z-index: 2;
 }
-#page-wrapper.inner #header .section {
+#page-wrapper.inner #header .section,
+#page-wrapper.inner2 #header .section {
     border-bottom: none;
 }
-#page-wrapper.inner #header.with-secondary-menu {
+#page-wrapper.inner #header.with-secondary-menu,
+#page-wrapper.inner2 #header.with-secondary-menu {
     height: 111px;
 }
-.inner #header .navigation li.active a {
+.inner #header .navigation li.active a,
+.inner2 #header .navigation li.active a {
     background: url("../images/inner_active.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
     min-width: 46px;
     text-align: center;
 }
-#page-wrapper.inner #header #main-menu.navigation ul li a {
+#page-wrapper.inner #header #main-menu.navigation ul li a,
+#page-wrapper.inner2 #header #main-menu.navigation ul li a {
     padding-bottom: 55px;
 }
 #skip-link a,
@@ -790,7 +794,7 @@ ul.links {
 #page-wrapper.inner #content div#node-1.node div.field,
 #page-wrapper.inner #content div#node-26.node div.field{
     float: left;
-    height: 700px;
+    height: 720px;
     margin: 0 28px 0 0;
     width: 274px;
 }
@@ -922,8 +926,6 @@ ul.links {
     font-family: Arial,sans-serif;
     font-size: 12px;
 }
-#page-wrapper.inner #content #node-125 div.field.field-name-field-faq p
-
 #page-wrapper.inner #content #node-125 div.field.field-name-field-faq p a,
 #page-wrapper.inner #content #node-125 div.field.field-name-field-faq p a:visited,
 #page-wrapper.inner #content #node-125 div.field.field-name-field-faq p a:hover,
@@ -967,7 +969,7 @@ ul.links {
     width: 450px;
 }
 #page-wrapper.inner #content div.views-row {
-    height: 200px;
+    height: 180px;
 }
 #page-wrapper.inner #content div.views-row.views-row-2 div.views-field,
 #page-wrapper.inner #content div.views-row.views-row-4 div.views-field,
@@ -982,6 +984,50 @@ ul.links {
 #page-wrapper.inner #content div.views-row.views-row-22 div.views-field,
 #page-wrapper.inner #content div.views-row.views-row-24 div.views-field {
     float: right;
+}
+#page-wrapper.inner #content div.views-row.views-row-2 div.views-field.views-field-field-desc h3,
+#page-wrapper.inner #content div.views-row.views-row-4 div.views-field.views-field-field-desc h3,
+#page-wrapper.inner #content div.views-row.views-row-6 div.views-field.views-field-field-desc h3,
+#page-wrapper.inner #content div.views-row.views-row-8 div.views-field.views-field-field-desc h3,
+#page-wrapper.inner #content div.views-row.views-row-10 div.views-field.views-field-field-desc h3,
+#page-wrapper.inner #content div.views-row.views-row-12 div.views-field.views-field-field-desc h3,
+#page-wrapper.inner #content div.views-row.views-row-14 div.views-field.views-field-field-desc h3,
+#page-wrapper.inner #content div.views-row.views-row-16 div.views-field.views-field-field-desc h3,
+#page-wrapper.inner #content div.views-row.views-row-18 div.views-field.views-field-field-desc h3,
+#page-wrapper.inner #content div.views-row.views-row-20 div.views-field.views-field-field-desc h3,
+#page-wrapper.inner #content div.views-row.views-row-22 div.views-field.views-field-field-desc h3,
+#page-wrapper.inner #content div.views-row.views-row-24 div.views-field.views-field-field-desc h3 {
+    text-align: left;
+    padding: 37px 0 10px 20px;
+}
+#page-wrapper.inner #content div.views-row.views-row-2 div.views-field.views-field-field-curse-desc p,
+#page-wrapper.inner #content div.views-row.views-row-4 div.views-field.views-field-field-curse-desc p,
+#page-wrapper.inner #content div.views-row.views-row-6 div.views-field.views-field-field-curse-desc p,
+#page-wrapper.inner #content div.views-row.views-row-8 div.views-field.views-field-field-curse-desc p,
+#page-wrapper.inner #content div.views-row.views-row-10 div.views-field.views-field-field-curse-desc p,
+#page-wrapper.inner #content div.views-row.views-row-12 div.views-field.views-field-field-curse-desc p,
+#page-wrapper.inner #content div.views-row.views-row-14 div.views-field.views-field-field-curse-desc p,
+#page-wrapper.inner #content div.views-row.views-row-16 div.views-field.views-field-field-curse-desc p,
+#page-wrapper.inner #content div.views-row.views-row-18 div.views-field.views-field-field-curse-desc p,
+#page-wrapper.inner #content div.views-row.views-row-20 div.views-field.views-field-field-curse-desc p,
+#page-wrapper.inner #content div.views-row.views-row-22 div.views-field.views-field-field-curse-desc p,
+#page-wrapper.inner #content div.views-row.views-row-24 div.views-field.views-field-field-curse-desc p {
+    text-align: right;
+    padding: 40px 20px 0 0;
+}
+#page-wrapper.inner #content a,
+#page-wrapper.inner #content a:visited{
+    color: #E11D5D;
+    text-decoration: none;
+}
+#page-wrapper.inner #content a:hover {
+    text-decoration: underline;
+}
+#page-wrapper.inner #content p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #4C7689;
+    font-family: Arial,sans-serif;
 }
 /* ------------------ Footer ------------------ */
 
@@ -1677,4 +1723,141 @@ div.admin-panel .description {
 }
 #footer-wrapper .poll .bar .foreground {
   background-color: #ddd;
+}
+/*------------------Inner2---------------------*/
+/*--Sidebar--*/
+.inner2 .section {
+    padding: 0;
+}
+.inner2 #sidebar-first h2 {
+    border-bottom: 1px solid #D2DCE1;
+    color: #4C7687;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    line-height: 18px;
+    padding: 0 0 8px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 2;
+    margin-bottom: 0;
+}
+#page-wrapper.inner2 #sidebar-first.column #block-views-cursemenu-block.block div.contextual-links-wrapper {
+    display: none;
+}
+.inner2 #sidebar-first div.views-row {
+    border-bottom: 1px dotted #D2DCE1;
+}
+.inner2 #sidebar-first a,
+.inner2 #sidebar-first a:visited {
+    cursor: pointer;
+    display: block;
+    padding: 7px 0 7px 8px;
+    color: #E11D5D;
+    text-decoration: none;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+}
+.inner2 #sidebar-first a.active,
+.inner2 #sidebar-first a:hover {
+    color: #3191B8;
+}
+
+/*--Content--*/
+.inner2 #main-wrapper {
+    overflow: hidden;
+    padding: 28px 0 40px;
+}
+.inner2 #content div.section {
+    padding: 0;
+}
+.inner2 #content h2 {
+    color: #EA2778;
+    font-family: "Trebuchet MS";
+    font-size: 24px;
+    font-weight: normal;
+    padding: 0 0 18px;
+    margin-top: 0;
+}
+.inner2 #content div.field.field-name-field-photo img {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.inner2 #content div.field.field-name-field-curse-logo img {
+    display: block;
+    float: left;
+    margin-top: 5px;
+}
+.inner2 #content p {
+    color: #4C7687;
+    font-size: 13px;
+    line-height: 18px;
+    overflow: hidden;
+    text-align: left;
+    font-family: Arial,sans-serif;
+    width: 540px;
+}
+.inner2 #content .field-label {
+    border-bottom: 1px solid #D2DCE1;
+    clear: both;
+    color: #4C7687;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    line-height: 18px;
+    padding: 0 0 8px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.inner2 #content div.field.field-name-field-teams h2,
+.inner2 #content div.field.field-name-field-desc h3,
+.inner #content .view-content div.views-field.views-field-field-curse-desc div.field-content h3{
+    display: none;
+}
+.inner2 #content div.field.field-name-field-curse-desc {
+    width: 450px;
+    margin-left: 200px;
+}
+.inner2 #content div.field.field-name-field-curse-desc h3 {
+    color: #EA2678;
+    font-family: "Trebuchet MS";
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 29px;
+    padding: 30px 0 5px;
+    margin-bottom: 0;
+}
+.inner2 #content div.field.field-name-field-curse-desc p {
+    width: 450px;
+}
+.inner2 #content div.field.field-name-field-curse-desc p a,
+.inner2 #content div.field.field-name-field-curse-desc p a:visited {
+    color: #E11D5D;
+    text-decoration: none;
+}
+.inner2 #content div.field.field-name-field-curse-desc p a:hover {
+    text-decoration: underline;
+}
+.inner2 #content .content {
+    margin-bottom: 15px;
+}
+.inner2 #content div.field.field-name-field--i ul.questions {
+    padding: 0;
+    margin: 25px 0 0;
+    color: #4C7689;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+}
+.inner2 #content div.field.field-name-field--i ul.questions li {
+    background: url("../images/question-li.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    overflow: hidden;
+    padding: 0 0 20px 30px;
 }

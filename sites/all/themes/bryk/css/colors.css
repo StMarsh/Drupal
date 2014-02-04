@@ -27,10 +27,6 @@ a:focus {
 a:active {
   color: #23aeff;
 }
-.sidebar .block {
-  background-color: #f6f6f2;
-  border-color: #f9f9f9;
-}
 
 .region-header,
 .region-header a,
