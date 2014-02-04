@@ -4,7 +4,6 @@
 body,
 body.overlay {
   color: #3b3b3b;
-  background: url("../images/header_bg.png") repeat-x scroll center top #FFFFFF;
 }
 .comment .comment-arrow {
   border-color: #ffffff;

@@ -82,7 +82,7 @@ body,
   width: 280px;
 }
 #footer-wrapper {
-  padding: 35px 5px 30px;
+  padding: 35px 0 0;
 }
 .region-footer-firstcolumn,
 .region-footer-secondcolumn,
@@ -92,6 +92,6 @@ body,
   width: 220px;
 }
 #footer {
-  width: 940px;
-  min-width: 920px;
+  width: 901px;
+
 }

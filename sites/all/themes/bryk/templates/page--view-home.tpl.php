@@ -134,7 +134,7 @@
 
   <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
 
-    <div id="content" class="column" ><div class="section">
+    <div id="content" class="home" ><div class="section">
       <h2>Наші Курси</h2>
 
       <?php print render($page['content']); ?>
@@ -145,13 +145,24 @@
 
   <div id="footer-wrapper"><div class="section">
 
-    <?php if ($page['footer_firstcolumn'] || $page['footer_secondcolumn'] || $page['footer_thirdcolumn']): ?>
       <div id="footer-columns" class="clearfix">
-        <?php print render($page['footer_firstcolumn']); ?>
-        <?php print render($page['footer_secondcolumn']); ?>
-        <?php print render($page['footer_thirdcolumn']); ?>
+          <div class="VK">
+              <script type="text/javascript" src="//vk.com/js/api/openapi.js?105"></script>
+
+              <!-- VK Widget -->
+              <div id="vk_groups"></div>
+              <script type="text/javascript">
+                  VK.Widgets.Group("vk_groups", {mode: 0, width: "280", height: "240"}, 30111409);
+              </script>
+          </div>
+          <div class="sertificates_list">
+              <h4><a href="http://geekhub.ck.ua/certified-professionals.html">Сертифiкованi професiонали</a></h4>
+          </div>
+          <div class="sponsors">
+              <h4>Наші Спонсори</h4>
+              <div></div>
+          </div>
       </div> <!-- /#footer-columns -->
-    <?php endif; ?>
 
     <?php if ($page['footer']): ?>
       <div id="footer" class="clearfix">

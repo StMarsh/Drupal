@@ -85,17 +85,15 @@
  * @see html.tpl.php
  */
 ?>
-<div id="page-wrapper"><div id="page">
+<div id="page-wrapper" class="inner"><div id="page">
 
   <div id="header" class="<?php print $secondary_menu ? 'with-secondary-menu': 'without-secondary-menu'; ?>"><div class="section clearfix">
 
-    <a href="<?php print $front_page; ?>"  rel="home" id="logo">
-        <img url="../images/logo.png"  />
-    </a>
+    <h1><a href="<?php print $front_page; ?>"  rel="home" id="logo"></a></h1>
 
     <?php print render($page['header']); ?>
 
-    <ul class="links">
+    <ul id="social" class="links">
       <li class="fb">
           <a href="http://www.facebook.com/pages/GeekHub/158983477520070"> </a>
       </li>
@@ -127,35 +125,23 @@
       </div> <!-- /#main-menu -->
     <?php endif; ?>
 
-
-
   </div></div> <!-- /.section, /#header -->
-
-  <?php if ($messages): ?>
-    <div id="messages"><div class="section clearfix">
-      <?php print $messages; ?>
-    </div></div> <!-- /.section, /#messages -->
-  <?php endif; ?>
 
   <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
 
-    <div id="content" class="column" ><div class="section">
+    <div id="content" class="nothome" ><div class="section">
 
-      <?php print render($page['content']); ?>
+        <h2 class="title" id="page-title">
+            <?php print $title; ?>
+        </h2>
+
+        <?php print render($page['content']); ?>
 
     </div></div> <!-- /.section, /#content -->
 
   </div></div> <!-- /#main, /#main-wrapper -->
 
   <div id="footer-wrapper"><div class="section">
-
-    <?php if ($page['footer_firstcolumn'] || $page['footer_secondcolumn'] || $page['footer_thirdcolumn']): ?>
-      <div id="footer-columns" class="clearfix">
-        <?php print render($page['footer_firstcolumn']); ?>
-        <?php print render($page['footer_secondcolumn']); ?>
-        <?php print render($page['footer_thirdcolumn']); ?>
-      </div> <!-- /#footer-columns -->
-    <?php endif; ?>
 
     <?php if ($page['footer']): ?>
       <div id="footer" class="clearfix">
